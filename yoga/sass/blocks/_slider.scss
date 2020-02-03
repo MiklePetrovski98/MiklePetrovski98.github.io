@@ -1,0 +1,107 @@
+.slider {
+    margin-top: 150px;
+    position:relative;
+    &__title {
+        font-size: 32px;
+        color: $main-color;
+        &:after {
+            content: '';
+            display: block;
+            width: 10%;
+            height: 1px;
+            background-color: $main-color;
+            margin-top: 4px;
+        }
+    }
+    &__wrapper {
+        width: 100%;
+        position:relative;
+    }
+    &__item {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+        img {
+            width: 100%;
+        } 
+    }
+    .prev{
+        position:absolute;
+        cursor: pointer;
+        top: 0;
+        width: 90px;
+        left: 10%;
+        background-color: rgba(0,0,0,.0);
+        transition: 0.3s;
+        height: 100%;
+        &:hover {
+            background-color: rgba(0,0,0,.4);
+            .arrow-left{
+                opacity:1;
+            }
+        }
+        .arrow-left {
+            width: 30px;
+            height: 30px;
+            background: url(../icons/left-arrow.svg) center no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            opacity: .4;
+            transition: 1s;
+        }
+    }
+    .next {
+        position:absolute;
+        cursor: pointer;
+        top: 0;
+        width: 90px;
+        background-color: rgba(0,0,0,.0);
+        transition: 0.3s;
+        height: 100%;
+        right: 10%;
+        &:hover {
+            background-color: rgba(0,0,0,.4);
+            .arrow-right{
+                opacity:1;
+            }
+        }
+        .arrow-right {
+            width: 30px;
+            height: 30px;
+            background: url(../icons/right-arrow.svg) center no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            opacity: .4;
+            transition: 1s;
+        }
+    }
+    &__dots {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .dot {
+        cursor:pointer;
+        height:16px;
+        width:16px;
+        margin: 0 10px;
+        background-color: $main-color;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        &-active {
+            background-color: #000;
+            height:18px;
+            width:18px;
+        }
+    }
+}

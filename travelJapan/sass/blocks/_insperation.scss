@@ -1,0 +1,85 @@
+.insperation {
+    &__wrapper {
+        padding-top: 131px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 36px;
+    }
+    &__link {
+        align-self:center;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: #006DFE;
+        padding-right: 56px;
+        background: url(../icons/shape-icon.png) no-repeat 90% center;
+        transition:0.2s all;
+        &:hover {
+            background: url(../icons/shape-icon.png) no-repeat right center;
+        }
+    }
+    &__places {
+        display:grid;
+        grid-template-columns:repeat(6,1fr);
+        grid-gap:10px;
+        margin-bottom: 131px;
+    }
+    &__place {
+        position: relative;
+        transition: 0.3s all;
+        overflow: hidden;
+        &-lg {
+            grid-column: span 3;       
+        }
+        &-sm {
+            grid-column: span 2;                      
+        }
+        &-img {
+            width: 100%;
+            
+            &_lg {
+                height: 354px;
+                object-fit: cover;
+            }
+            &_sm {
+                height: 283px;
+                object-fit: cover;
+            }
+
+        }
+        &::after {
+            position: absolute;
+            top:0;
+            left:0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            content:'';
+            background: rgba(21, 24, 36, 0.4);
+            z-index: 2;
+        }
+        &-title {
+            position: absolute;
+            bottom: 27px;
+            left: 29px;
+            font-weight: 900;
+            font-size: 50px;
+            color: #FFFFFF;
+            z-index: 3;
+        }
+        &:hover .insperation__place-img {
+            transform: scale(1.15);
+        }
+        &-link {
+            position: absolute;
+            top:0;
+            left:0;
+            display:block;
+            width:100%;
+            height:100%;
+            z-index: 4;
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 20px;
+    &-full {
+        max-width: 1260px; 
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/intro';
+@import 'blocks/search-form';
+@import 'blocks/benefits';
+@import 'blocks/insperation';
+@import 'blocks/title';
+@import 'blocks/tours';
+@import 'blocks/top';
+@import 'blocks/button';
+@import 'blocks/video';
+@import 'blocks/footer';
+@import 'blocks/burger';
+@import 'base/media';

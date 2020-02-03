@@ -1,0 +1,398 @@
+@media screen and (max-width: 1200px) {
+    .benefits {
+        box-shadow: none;
+        &__cards {
+            padding-top: 0;
+            padding-bottom: 55px;
+        }
+    }
+    .insperation {
+        &__wrapper {
+            padding-top: 70px;
+        }
+        &__places {
+            margin-bottom: 125px;
+        }
+    }
+    .tours {
+        margin-bottom: 125px;
+        &__tour {
+            grid-column-gap: 54px;
+            margin-bottom: 95px;
+        }
+    }
+    .top {
+        &__cards {
+            margin-bottom: 100px;
+        }
+        &__card {
+            width: 310px;
+        }
+        &__thumbnail {
+            width: 100%;
+            margin-bottom: 35px;
+        }
+        &__descr {
+            margin-bottom: 25px;
+        }
+    }
+    .footer {
+        padding: 72px;
+    }
+
+}
+@media screen and (max-width:991px) {
+    .intro {
+        padding-top: 230px;
+        &__title {
+            font-size: 46px;
+            padding-left: 30px;
+        }
+        &__subtitle {
+            padding-left: 30px;
+        }
+    }
+    .search-form {
+        &__info {
+            justify-content: space-around;
+        }
+        &__field{
+            margin: 0 30px 35px;
+        }
+    }
+    .benefits {
+        &__title {
+            text-align: center;
+            padding: 70px auto 70px;
+        }
+        &__icon {
+            display:block;
+            margin: 0 auto 37px;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__link {
+            display: block;
+            text-align: center;
+        }
+    }
+    .insperation {
+        &__wrapper {
+            padding-top: 45px;
+        }
+        &__place-lg {
+            grid-column: span 6;
+        }
+        &__place-sm {
+            grid-column: span 6;
+        }
+        &__place-img_sm {
+            height: 354px;
+        }
+    }
+    .tours {
+        margin-bottom: 100px;
+        &__tour {
+            margin-bottom: 50px;
+        }
+    }
+    .tour {
+        &__title {
+            width: 310px;
+        }
+        &__descr {
+            margin-bottom: 30px;
+        }
+    }
+    .top {
+        &__cards {
+            justify-content: space-around;
+        }
+    }
+}
+@media screen and (max-width:767px) {
+    .header{
+        &__burger {
+            display: block;
+        }
+        &__nav {
+            position:fixed;
+            width:100%;
+            height:100%;
+            top:0;
+            left:0;
+            background: #000;
+            z-index: 10;
+            padding:75px;
+            transform: translatex(100%);
+            transition: .2s all linear;
+            &_active {
+                transform: translatex(0%); 
+            }
+            &-close {
+               width:30px;
+               height:40px;
+               position: absolute;
+               top:20px;
+               right:20px;
+               z-index: 11;
+                &-line {
+                    display:block;
+                    width: 100%;
+                    height: 3px;
+                    background-color: #fff;
+                    position: absolute;
+                    top:50%;
+                    &:first-child {
+                        transform:translateY(-50%) rotate(45deg);
+                    }
+                    &:last-child {
+                        transform:translateY(-50%) rotate(-45deg);
+                    }
+                }
+            }
+        }
+        &__item {
+            width:100%;
+            margin-right: 0;
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            a {
+                font-size: 30px;
+            }
+        }
+
+    }
+    .intro {
+        padding-top: 200px;
+        &__title {
+            font-size: 42px;
+            width: 546px;
+        }
+        &__subtitle {
+            padding-left: 0;
+        }
+    }
+    .button_submit {
+        margin: 0 95px;
+    }
+    .benefits {
+        &__link {
+            font-size: 14px;
+            img {
+                padding-left: 8px;
+            }
+        }
+    }
+    .insperation{
+        &__places {
+            grid-gap: 0;
+        }
+        &__wrapper {
+            padding-top: 30px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    .tours__tour {
+        grid-column-gap: 0px;
+    }
+    .tour {
+        &__pic {
+            width: 100%;
+        }
+        &__info {
+            padding-left: 10px;
+        }
+        &__title {
+            width:280px;
+            text-align: center;
+            line-height: 30px;
+            height: auto;
+            margin-bottom: 25px;
+        }
+
+    }
+    .footer {
+        padding: 42px;
+        &__logo {
+            padding-right: 35px;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__menu {
+            padding-right: 15px;
+            margin-top: 35px;
+        }
+
+    }
+}
+@media screen and (max-width:575px) {
+    .intro {
+        padding-top: 150px;
+        &__title {
+            padding-left: 0px;
+            width: 100%;
+            text-align: center;
+        }
+        &__subtitle {
+            padding-left: 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .search-form__field {
+        margin: 0;
+        margin-bottom: 35px;
+    }
+    .button_submit {
+        margin: 0;
+    }
+    .benefits {
+        &__title {
+            padding: 20px 70px 40px;
+        }
+        &__cards {
+            grid-template-columns: none;
+            padding-bottom: 0px;
+        }
+        &__card {
+            margin-bottom: 45px;
+        }
+        &__icon {
+            margin-bottom: 15px;
+        }
+        &__descr {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &__link {
+            position: relative;
+        }
+    }
+    .insperation {
+        &__places {
+            margin-bottom: 80px;
+        }
+        &__place {
+            &-title {
+                font-size: 40px;
+            }
+        }
+        .container-full {
+            padding: 0;
+        }
+        &__link {
+            display: none;
+        }
+    }
+    .section-title {
+        margin-left: 20px;
+        font-size: 25px;
+        &:after {
+            width: 155px;
+        }
+    }
+    .tours {
+        &__tour {
+            grid-template-columns: 1fr;
+            grid-template-rows: 254px 354px;
+        }
+    }
+    .tour {
+        &__pic {
+            grid-row: 2/ span 1;
+        }                       
+        &__info {
+            grid-row: 1/ span 1;
+        } 
+        &__title {
+            width: 100%;
+            text-align: center;
+        }  
+        &__link {
+            display: none;
+        }           
+
+    }
+    .footer {
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width: 390px) {
+    .section-title {
+        font-size: 22px;
+    }
+    .tour {
+        &__prev {
+            padding: 40px 0 0;
+            height: 110%;
+
+        }
+    }
+    .top {
+        &__card {
+            &_pt30 {
+                padding-top: 30px;
+            }
+        }
+    }
+    .footer {
+        &__nav {
+            justify-content: center;
+        }
+        
+    }
+} 
+
+@media screen and (max-width: 330px) {
+    .intro {
+        .container {
+            padding: 0 10px;
+        }
+        &__title {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        .search-form {
+            &__field {
+                min-width: 290px;
+            }
+        }
+    }
+    .benefits {
+        &__title {
+            font-size: 32px;
+        }
+    }
+    .insperation {
+        &__wrapper {
+            padding-top: 0;
+        }
+        &__places {
+            margin-bottom: 0;
+        }
+    }
+    .section-title {
+        margin: 0 auto;
+    }
+    .tour {
+        &__title {
+            font-size: 25px;
+        }
+    }
+    .top {
+        &__cards {
+            margin-bottom: 30px;
+        }
+    }
+}

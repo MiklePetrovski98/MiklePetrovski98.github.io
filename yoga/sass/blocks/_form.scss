@@ -1,0 +1,28 @@
+.form {
+    &__title {
+        margin-top: 30px;
+        color: $main-color;
+        font-size: 26px;
+        font-weight: 300;
+        &:after {
+            content: '';
+            display: block;
+            width: 20%;
+            height: 1px;
+            background-color: $main-color;
+            margin-top: 4px;
+        }
+    }
+    form {
+        input {
+            display: block;
+            width: 60%;
+            height: 40px;
+            margin-top: 30px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YogaToure</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a href="#about">О нас</a></li>
+                    <li class="menu__item"><a href="#photo">Фото</a></li>
+                    <li class="menu__item"><a href="#price">Стоимость</a></li>
+                    <li class="menu__item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="promo__block">
+                        <a href="#" class="promo__link">Travel.org</a>
+                        <div class="promo__title">йога-туры в индию</div>
+                        <div class="promo__descr">океан / йога / путешествия / аюрведа</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <main class="content">
+        <div class="container" id="about">
+            <section class="entertainment">
+                <div class="entertainment__tabs">
+                    <div class="entertainment__tab">Лечение</div>
+                    <div class="entertainment__tab">Отдых</div>
+                    <div class="entertainment__tab">Природа</div>
+                    <div class="entertainment__tab">Йога</div>
+                </div>
+                <div class="entertainment__tabcontent">
+                    <div class="description">
+                        <div class="description__title">Здоровый позвоночник</div>
+                        <div class="description__text">Йога, массажи и плавание в море - помогут уставшей спине! Индийские йоги считали, что здоровье человека можно определить по тому, насколько здоров и гибок у него позвоночник.<br> Интересно, что бы древние йоги сказали, глядя на современного человека, который уже со школьного возраста мучается болями в спине, работает подолгу в неудобных сидячих позах и не умеет расслабляться, имеет искривление, которое в итоге приведет к болезням других органов? Йоги сказали бы – займись собой и срочно!</div>
+                        <div class="button button_descr">Узнать подробнее</div>
+                    </div>
+                    <div class="entertainment__photo">
+                        <img src="img/massage.jpg" alt="Massage">
+                    </div>
+                </div>
+                <div class="entertainment__tabcontent">
+                    <div class="description">
+                        <div class="description__title">Антистресс</div>
+                        <div class="description__text">Аюрведа и йога утверждают, что главным источником здоровья нашего организма является здоровый ум. Программа «Антистресс» сначала убирает последствия стресса на физическом уровне, потом помогает избавиться от негативных и навязчивых мыслей, затем повышает общий уровень энергии.<br> Вы наконец вспомните ощущение "свободной головы", ощутите прилив физических сил и вспомните, что такое счастье.</div>
+                        <div class="button button_descr">Узнать подробнее</div>
+                    </div>
+                    <div class="entertainment__photo">
+                        <img src="img/sunset.jpg" alt="sunset">
+                    </div>
+                </div>
+                <div class="entertainment__tabcontent">
+                    <div class="description">
+                        <div class="description__title">Восстановление</div>
+                        <div class="description__text">Стрессы, жизнь в условиях города, плохая экология, загрязненные продукты и вода, напряженный ритм жизни - все это день ото дня отбирает у нас молодость и хорошее здоровье.<br> Одним кремом для лица не решить проблему омоложения организма, когда тебе за 40. Согласны?</div>
+                        <div class="button button_descr">Узнать подробнее</div>
+                    </div>
+                    <div class="entertainment__photo">
+                        <img src="img/sunrise.jpg" alt="sunrise">
+                    </div>
+                </div>
+                <div class="entertainment__tabcontent">
+                    <div class="description">
+                        <div class="description__title">Йога и аюрведа</div>
+                        <div class="description__text">Несколько лет назад мы разработали специальные программы по йоге и аюрведе - и мы поняли, что они отлично работают - на опыте 530 наших туристов! В каждой из этих программ есть одна цель, на достижение которой будут направлены и асаны, и дыхательные практики, и медитации, и аюрведические процедуры, будут читаться лекции по этой теме. <br>Йога и аюрведа - два сильных война, которые сообща будут бороться с проблемами и болезнями.</div>
+                        <div class="button button_descr">Узнать подробнее</div>
+                    </div>
+                    <div class="entertainment__photo">
+                        <img src="img/yoga.jpg" alt="yoga">
+                    </div>
+                </div> 
+            </section>
+            <section class="timer">
+                <div class="timer__title">Успей забронировать место со скидкой</div>
+                <div class="timer__action">До конца акции осталось</div>
+                <div class="timer__numbers" id="timer">
+                    <span class="hours">12</span>
+                    <span>:</span>
+                    <span class="minutes">22</span>
+                    <span>:</span>
+                    <span class="seconds">13</span>
+                </div>
+                <button class="button button_more">Узнать больше</button>
+            </section>
+            <section class="slider" id="photo">
+                <div class="slider__title">Фото с наших поездок</div>
+                <div class="slider__wrapper">
+                    <div class="slider__item">
+                        <img src="img/slider_1.jpg" alt="slider">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider_2.jpg" alt="slider">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider_3.jpg" alt="slider">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider_4.jpg" alt="slider">
+                    </div>
+
+                    <div class="prev"><div class="arrow-left"></div></div>
+					<div class="next"><div class="arrow-right"></div></div>
+                </div>
+                <div class="slider__dots">
+                    <div class="dot dot-active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </section>
+            <section class="counter" id="price">
+                <div class="counter__title">Рассчитайте стоимость вашего отдыха</div>
+                <div class="counter__block">
+                    <div class="counter__block-option">Количество людей</div>
+                    <input type="number" min="1" step="1" class="counter__block-input">
+                </div>
+                <div class="counter__block">
+                    <div class="counter__block-option">На сколько дней</div>
+                    <input type="number" min="1" step="1" class="counter__block-input">
+                </div>
+                <div class="counter__block">
+                    <div class="counter__block-option">Выберете базу</div>
+                    <select name="place" id="select">
+						<option id="mumbai" value="1">Индия, Мумбай</option>
+						<option id="kerala" value="1.5">Индия, Керала</option>
+						<option id="varanasi" value="1.8">Индия, Варанаси</option>
+					</select>
+                </div>
+                <div class="counter__total">
+					Общая сумма<br>
+					<span id="total">20456</span>
+				</div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="contact__img">
+                    <img src="img/letter.png" alt="letter">
+                </div>
+                <div class="contact__form form">
+                    <div class="form__title">Мы с вами свяжемся</div>
+                    <form id="form">
+                        <input required name="email" type="email" placeholder="Ваша почта">
+						<input required name="phone" type="tel" placeholder="Ваш телефон">
+						<button type="submit" class="button button_submit">Отправить</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <div class="social__block">
+                    <a href="#">
+                        <img src="icons/logo/twitter-logo-silhouette.svg" alt="">
+                    </a>
+                </div>
+                <div class="social__block">
+                    <a href="#">
+                        <img src="icons/logo/facebook-logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="social__block">
+                    <a href="#">
+                        <img src="icons/logo/instagram-social-network-logo-of-photo-camera.svg" alt="">
+                    </a>
+                </div>
+                <div class="social__block">
+                    <a href="#">
+                        <img src="icons/logo/pinterest-logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay fade">
+        <div class="popup">
+           <div class="popup-close">&times;
+           </div>
+           <div class="popup-title">Форма обратной связи</div>
+               <div class="popup-form">	
+                   <form action="#" class="main-form">
+                       <div class="popup-form-header">
+                           Узнайте больше о своём отдыхе
+                       </div>
+                           <label class="popup-form__label" for="phone">
+                           Введите ваш номер телефона:
+                           </label>
+                           <input class="popup-form__input" name="phone" type="tel" required placeholder="+375(33) xxx-xx-xx">
+                           <button class="button popup-form__btn">
+                               Оставить заявку!
+                           </button>
+                   </form>
+               </div>
+        </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.intro {
+    min-height: 962px;
+    background: url(../img/intro-bg.png) center (center/cover) no-repeat;
+    padding-top: 263px;
+    &__title {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 60px;
+        width:620px;
+        color: #FFFFFF;
+        margin-bottom: 22px;
+    }
+    &__subtitle {
+        width:546px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 59px;
+    }
+}

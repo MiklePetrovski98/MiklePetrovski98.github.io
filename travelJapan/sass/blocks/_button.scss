@@ -1,0 +1,21 @@
+.button {
+    width:171px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    &_submit {
+        padding: 15px 39px;
+        background: #1B7DFF;
+    }
+    &_more {
+        width: 118px;
+        height: 42px;
+        font-size: 16px;
+        font-weight: 400;
+        background: #006DFE;
+    }
+}

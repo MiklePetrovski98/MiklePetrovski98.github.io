@@ -1,0 +1,39 @@
+.top {
+
+    &__cards {
+        display:flex;
+        flex-wrap:wrap;
+        margin-bottom: 144px;
+        justify-content: space-between;
+    }
+    &__card {
+        padding-top: 58px;
+        width:386px;
+    }
+    &__thumbnail {
+        width: 386px;
+        height: 377px;
+        position: relative;
+        margin-bottom: 45px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__place {
+        position: absolute;
+        bottom:15px;
+        left:25px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #102746;
+        margin-bottom: 31px;
+    }
+}

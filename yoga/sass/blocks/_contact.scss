@@ -1,0 +1,20 @@
+.contact {
+    width: 86%;
+    height: 400px;
+    display: flex;
+    background-color: $dark;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-shadow: 0px 0px 30px rgba(0,0,0, .8);
+    &__img {
+        width: 50%;
+			img {
+				height: 550px;
+				transform: translateY(-13%);
+			}
+    }
+    &__form {
+        width: 50%;
+        padding-left: 40px;
+    }
+}

@@ -1,0 +1,27 @@
+.timer {
+    margin-top: 150px;
+    text-align: center;
+    &__title {
+        font-size: 36px;
+        color: $main-color;
+    }
+    &__action {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 40px;
+    }
+    &__numbers {
+        margin-top: 40px;
+        font-size: 90px;
+        color: $main-color;
+        &:after {
+            content: '';
+            display: block;
+            width: 20%;
+            height: 1px;
+            background-color: $main-color;
+            margin: 0 auto;
+            margin-top: 4px;
+        }
+    }
+}

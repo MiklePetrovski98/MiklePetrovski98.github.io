@@ -1,0 +1,26 @@
+.search-form {
+    &__info {
+        display: flex;
+        flex-wrap:wrap;
+    }
+    &__field {
+        min-width:297px;
+        background: transparent url(../icons/circle-icon.png) no-repeat left 3px;
+        background-size: 20px;
+        border:0;
+        border-bottom: 2px solid #BFC0C5;
+        padding-bottom: 22px;
+        padding-left: 43px;
+        margin-right: 60px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        &::placeholder {
+            font-weight: 500;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
+
+}
