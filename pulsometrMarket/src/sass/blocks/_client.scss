@@ -1,0 +1,51 @@
+.client {
+    min-height: 980px;
+    padding-bottom: 71px;
+    &__wrapper {
+        margin-top: 70px;
+
+        
+    }
+    &__item { 
+        opacity:0;
+        animation-fill-mode: forwards;
+        display: flex; 
+      
+        img {
+            width: 169px;
+            height: 169px;
+            border-radius: 100%;
+            margin-right: 62px;        
+        }   
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__quantity-mar {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__review {
+        color: #0d0d0d;
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    &__thanks {
+        color: #0d0d0d;
+        margin-top:26px;
+        font-size: 16px;
+        font-weight: 300; 
+    }
+    hr {
+        margin-top: 48px;
+        margin-bottom: 53px;
+        border-bottom:none;
+        background-color: #f6f6f6;
+    }
+   
+}

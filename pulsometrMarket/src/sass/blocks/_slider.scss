@@ -1,0 +1,111 @@
+.slider {
+    margin-top: 150px;
+    position: relative;
+
+    &-item {
+        width: 80%;
+        height: 450px;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;  
+        img {
+            width: 100%;
+            height:100%;
+        }
+    }
+    .prev {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        width: 90px;
+        left: 10%;
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-transition: 0.3s;
+                transition: 0.3s;
+        height: 100%;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+            .arrow-left {
+            opacity: 1;
+            }
+        }
+        .arrow-left {
+        width: 30px;
+        height: 30px;
+        background: url(../icons/left-solid.png) center no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+            -ms-transform: translate(-50%);
+                transform: translate(-50%);
+        opacity: .4;
+        -webkit-transition: 1s;
+                transition: 1s;
+        }
+    }
+    .next {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        width: 90px;
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-transition: 0.3s;
+                transition: 0.3s;
+        height: 100%;
+        right: 10%;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+            .arrow-right {
+            opacity: 1;
+            }
+        }
+        .arrow-right {
+        width: 30px;
+        height: 30px;
+        background: url(../icons/right-solid.png) center no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+            -ms-transform: translate(-50%);
+                transform: translate(-50%);
+        opacity: .4;
+        -webkit-transition: 1s;
+                transition: 1s;
+        }
+    }
+    .slider-dots {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    
+        .dot {
+            cursor: pointer;
+            height: 16px;
+            width: 16px;
+            margin: 0 10px;
+            background-color:white;
+            border: red solid 0.2px;
+            border-radius: 50%;
+            display: inline-block;
+            -webkit-transition: background-color 0.6s ease;
+                    transition: background-color 0.6s ease;        
+            &-active {
+                background-color: red;
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+}

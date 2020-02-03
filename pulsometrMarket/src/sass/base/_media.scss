@@ -1,0 +1,204 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+	.promo {
+		padding-bottom: 60px;
+		&__wrapper {
+			margin-top: 45px;
+		}
+	}
+	.advantages {
+		padding: 45px 0;
+		&__wrapper {
+			margin-top: 40px;
+			justify-content: space-around;
+		}
+		&__item {
+			margin-bottom: 35px;
+		}
+		&__subtitle {
+			margin-top: 15px;
+		}
+		&__descr {
+			margin-top: 13px;
+		}
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+	.header {
+		&__official {
+			display: none;
+		}
+	}
+	.promo {
+		&__header {
+			font-size: 40px;
+		}
+		&__subheader {
+			font-size: 22px;
+			margin-top: 12px;
+		}
+		&__icons {
+			margin-top: 55px;
+		}
+	}
+	.consultation {
+		padding: 35px 0;
+	}
+	.slider {
+		&-item {
+			height: 320px;
+		}
+	}
+	.catalog {
+		&__tabs {
+			margin-top: 40px;
+			flex-direction: column;
+		}
+	}
+
+	.client {
+		padding-bottom: 30px;
+		&__wrapper {
+			margin-top: 30px;
+		}
+		&__review {
+			& > br {
+				display: none;
+			}
+		}
+		&__review, &__thanks {
+			font-size: 14px;
+		}
+		&__thanks {
+			margin-top: 10px;
+		}
+	}
+	.footer {
+		&__info {
+			max-width: 300px;
+			height: 230px;
+			padding: 30px;
+		}
+		&__phone, &__social {
+			margin-top: 16px;
+		}
+	}
+	
+    
+}
+@media screen and (max-width: 576px) {
+	.header {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		&__logo {
+			width: 230px;
+			margin-bottom: 25px;
+		}
+		&__contacts {
+			margin-left: 88px;
+		}
+		&__phone {
+			font-size: 16px;
+		}
+	}
+	.promo {
+		padding-bottom: 0;
+		&__wrapper {
+			margin-top: 25px;
+		}
+		&__subheader {
+			margin-top: 0;
+		}
+		&__icons {
+			width: 100%;
+			justify-content: space-around;
+
+		}
+		.button_main {
+			margin: 15px auto 0;
+		}
+		&__link {
+			font-size: 16px;
+			margin: 18px auto;
+		}
+	}
+	.title {
+		font-size: 27px;
+		&_left {
+			font-size: 30px;
+		}
+	}
+	.consultation {
+		padding-top: 15px;
+		&__descr {
+			margin-top: 40px;
+		}
+	}
+	.slider {
+		&-item {
+			width:100%;
+		}
+	}
+	.client {
+		&__item {
+			flex-direction: column;
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		&__descr {
+			text-align: center;
+		}
+	}
+	.modal {
+		width: 320px;
+		.feed-form {
+			width: 100%;
+		}
+		.button_submit {
+			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 510px) {
+	.slickUp {
+		right: 1px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.promo {
+		&__header {
+			font-size: 35px;
+		}
+		&__subheader {
+			font-size: 20px;
+		}
+		.button_main {
+			width: 100%;
+		}
+	}
+	.advantages {
+		padding: 15px 0;
+	}
+	.feed-form {
+		width: 100%;
+	}
+	.button_submit {
+		width: 100%;
+	}
+	.modal {
+		&__close {
+			right: 0;
+		}
+	}
+}
